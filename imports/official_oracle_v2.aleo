@@ -108,7 +108,7 @@ mapping nitro_attested_data:
 
 function set_unique_id:
     input r0 as UniqueID.public;
-    assert.eq aleo1urxgwwfph8243x68r2sh772vl55ln0cvzvru4j9nm9er7x40lgyqkrthfe self.caller ;
+    assert.eq aleo1rhgdu77hgyqd3xjj8ucu3jj9r2krwz6mnzyd80gncr5fxcwlh5rsvzp9px self.caller ;
     async set_unique_id r0 into r1;
     output r1 as official_oracle_v2.aleo/set_unique_id.future;
 
@@ -118,7 +118,7 @@ finalize set_unique_id:
 
 function set_pcr_values:
     input r0 as PcrValues.public;
-    assert.eq aleo1urxgwwfph8243x68r2sh772vl55ln0cvzvru4j9nm9er7x40lgyqkrthfe self.caller ;
+    assert.eq aleo1rhgdu77hgyqd3xjj8ucu3jj9r2krwz6mnzyd80gncr5fxcwlh5rsvzp9px self.caller ;
     async set_pcr_values r0 into r1;
     output r1 as official_oracle_v2.aleo/set_pcr_values.future;
 
@@ -129,7 +129,7 @@ finalize set_pcr_values:
 function set_key:
     input r0 as address.public;
     input r1 as boolean.public;
-    assert.eq aleo1urxgwwfph8243x68r2sh772vl55ln0cvzvru4j9nm9er7x40lgyqkrthfe self.caller ;
+    assert.eq aleo1rhgdu77hgyqd3xjj8ucu3jj9r2krwz6mnzyd80gncr5fxcwlh5rsvzp9px self.caller ;
     async set_key r0 r1 into r2;
     output r2 as official_oracle_v2.aleo/set_key.future;
 

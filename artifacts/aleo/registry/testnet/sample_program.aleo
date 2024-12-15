@@ -87,8 +87,6 @@ struct ReportData:
     c6 as DataChunk;
     c7 as DataChunk;
 
-
-
 function query_oracle:
     async query_oracle into r0;
     output r0 as sample_program.aleo/query_oracle.future;
@@ -102,4 +100,3 @@ finalize query_oracle:
     hash.psd8 r4 into r5 as u128;
     get official_oracle_v2.aleo/sgx_attested_data[r5] into r6;
     get official_oracle_v2.aleo/nitro_attested_data[r5] into r7;
-

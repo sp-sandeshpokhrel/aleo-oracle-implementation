@@ -2,5 +2,5 @@
 name = "official_oracle_v2.aleo"
 network = "testnet"
 location = "network"
-checksum = "ed144cd6f52a37f3f5817adf6364890e786e9b0179323cf3f0cc26182b1944ba"
+checksum = "8368b87661f365a11861ad7a1dfd30581f30d4d57b0402e6e349b27d135b39ce"
 dependencies = []

@@ -21,7 +21,7 @@ async function deployOracle() {
 }
 
 async function setKey() {
-  const response = await oracle.set_key(aleoUser1, true);
+  const response = await oracle.set_key("aleo1afxcqyzcz3kx880q33zws33k503mlth9gql52ddylvcgzv9c4gxs757xsc", true);
   await response.wait();
 }
 
